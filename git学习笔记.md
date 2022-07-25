@@ -345,6 +345,12 @@
       - 当前用户的Git配置文件放在用户主目录下的一个隐藏文件`.gitconfig`中
       - 配置别名也可以直接修改这个文件，如果改错了，可以删掉文件重新通过命令配置
 
+## [Sourcetree](https://www.sourcetreeapp.com/)
+
+推送至远程仓库时出现报错提示：`If you trust this host, enter "y" to add the key`
+
+解决方案：工具->选项->SSH客户端：更换默认的`Putty`为`openSSH`
+
 ## 其他
 
 搭建Git服务器和使用SourceTree相关教程可直接移步[廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/896043488029600)，感谢廖老师的教程~
