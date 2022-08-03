@@ -317,8 +317,6 @@
      deploy_key_rsa
      ```
 
-     
-
    - 把指定文件排除在`.gitignore`规则外的写法就是`!`+文件名
 
    - `.gitignore`文件本身要放到版本库里，并且可以对`.gitignore`做版本管理
