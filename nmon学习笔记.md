@@ -4,20 +4,20 @@ nmon是一种在 AIX 与各种 Linux 操作系统上广泛使用的监控与分�
 
 #### 安装
 
-##### 系统环境：
+##### 系统环境
 
 ```linux
 [root@i-sgtj39fd /]# cat /proc/version
 Linux version 3.10.0-957.21.3.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ) #1 SMP Tue Jun 18 16:35:19 UTC 2019
 ```
 
-##### 更新yum源：
+##### 更新yum源
 
 ```linux
 wget -O /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo
 ```
 
-##### 安装：
+##### 安装
 
 ```
 yum install -y nmon
