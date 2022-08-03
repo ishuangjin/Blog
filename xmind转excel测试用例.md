@@ -6,13 +6,11 @@
 
 最后一级目录为用例详情，需要在用例详情中加上`前置：` `步骤：` `结果：` 其中之一作为起始，二级目录至用例详情之前由`_`连接组成用例名称
 
-![image-20220615103455405](https://cdn.jsdelivr.net/gh/ishuangjin/My-Picture-warehouse/imgblog/202206151034531.png)
+![xmind转excel测试用例-2022-08-03-14-50-24](http://cache.ishuangjin.cn/img/xmind转excel测试用例-2022-08-03-14-50-24.png)
 
 #### 生成的excel
 
-![image-20220615111416022](https://cdn.jsdelivr.net/gh/ishuangjin/My-Picture-warehouse/imgblog/202206151114121.png)
-
-
+![xmind转excel测试用例-2022-08-03-14-51-24](http://cache.ishuangjin.cn/img/xmind转excel测试用例-2022-08-03-14-51-24.png)
 
 #### 代码实现
 
@@ -110,4 +108,3 @@ if __name__ == '__main__':
         print("Success")
 
 ```
-
